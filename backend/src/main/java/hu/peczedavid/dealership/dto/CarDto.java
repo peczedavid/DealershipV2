@@ -45,8 +45,8 @@ public class CarDto {
         carDto.setMass(carEntity.getMass());
         carDto.setFuelTankSize(carEntity.getFuelTankSize());
         carDto.setMileage(carEntity.getMileage());
-        carDto.setTrunkSize(carDto.getTrunkSize());
-        carDto.setPrice(carDto.getPrice());
+        carDto.setTrunkSize(carEntity.getTrunkSize());
+        carDto.setPrice(carEntity.getPrice());
 
         return carDto;
     }
