@@ -13,7 +13,9 @@ public class GearboxEntity {
     private Long id;
 
     @Enumerated(EnumType.STRING)
+    @Column(unique = true, nullable = false)
     private GearboxType type;
 
+    @Column(unique = true, nullable = false)
     private int gears;
 }
