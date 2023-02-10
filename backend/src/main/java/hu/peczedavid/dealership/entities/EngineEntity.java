@@ -1,7 +1,7 @@
-package hu.peczedavid.dealership.entity;
+package hu.peczedavid.dealership.entities;
 
-import hu.peczedavid.dealership.entity.fuel.FuelEntity;
-import hu.peczedavid.dealership.entity.gearbox.GearboxEntity;
+import hu.peczedavid.dealership.entities.fuel.FuelEntity;
+import hu.peczedavid.dealership.entities.gearbox.GearboxEntity;
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;

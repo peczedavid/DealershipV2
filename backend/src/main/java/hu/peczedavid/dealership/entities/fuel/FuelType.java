@@ -1,4 +1,4 @@
-package hu.peczedavid.dealership.entity.fuel;
+package hu.peczedavid.dealership.entities.fuel;
 
 public enum FuelType {
     PETROL,

@@ -1,17 +1,19 @@
-package hu.peczedavid.dealership.entity.fuel;
+package hu.peczedavid.dealership.entities.gearbox;
 
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Entity(name = "fuels")
+@Entity(name = "gearboxes")
 @Data
 @NoArgsConstructor
-public class FuelEntity {
+public class GearboxEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Enumerated(EnumType.STRING)
-    private FuelType type;
+    private GearboxType type;
+
+    private int gears;
 }

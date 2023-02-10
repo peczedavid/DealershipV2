@@ -1,4 +1,4 @@
-package hu.peczedavid.dealership.entity;
+package hu.peczedavid.dealership.entities;
 
 import jakarta.persistence.*;
 import lombok.Data;

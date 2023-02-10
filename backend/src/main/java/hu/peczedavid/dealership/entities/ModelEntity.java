@@ -1,6 +1,5 @@
-package hu.peczedavid.dealership.entity;
+package hu.peczedavid.dealership.entities;
 
-import hu.peczedavid.dealership.entity.gearbox.GearboxEntity;
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
