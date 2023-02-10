@@ -1,10 +1,11 @@
+package hu.peczedavid.dealership.mappers;
+
 import hu.peczedavid.dealership.dto.CarDto;
 import hu.peczedavid.dealership.entities.*;
 import hu.peczedavid.dealership.entities.fuel.FuelEntity;
 import hu.peczedavid.dealership.entities.fuel.FuelType;
 import hu.peczedavid.dealership.entities.gearbox.GearboxEntity;
 import hu.peczedavid.dealership.entities.gearbox.GearboxType;
-import hu.peczedavid.dealership.mappers.CarMapper;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
